@@ -54,7 +54,7 @@
   --bs-danger-text-emphasis: #5c1b2c;
   --bs-light-text-emphasis: #495057;
   --bs-dark-text-emphasis: #495057;
-  --bs-primary-bg-subtle: light;
+  --bs-primary-bg-subtle: #ecdfec;
   --bs-secondary-bg-subtle: #d8ddf4;
   --bs-success-bg-subtle: #edf7e6;
   --bs-info-bg-subtle: #def3fc;
@@ -75,7 +75,7 @@
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: "Source+Sans+3" sans-serif;
+  --bs-body-font-family: "Source Sans 3" sans-serif;
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -218,7 +218,7 @@ hr {
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-family: "Libre-Baskerville" serif;
+  font-family: "Libre Baskerville" serif;
   font-weight: 500;
   line-height: 1.2;
   color: var(--bs-heading-color);
@@ -4276,7 +4276,7 @@ textarea.form-control-lg {
 .navbar-dark,
 .navbar[data-bs-theme=dark] {
   --bs-navbar-color: rgba(255, 255, 255, 0.55);
-  --bs-navbar-hover-color: rgba(255, 255, 255, 0.75);
+  --bs-navbar-hover-color: #A04ADD;
   --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
   --bs-navbar-active-color: #fff;
   --bs-navbar-brand-color: #fff;
@@ -5687,7 +5687,7 @@ textarea.form-control-lg {
   z-index: var(--bs-tooltip-zindex);
   display: block;
   margin: var(--bs-tooltip-margin);
-  font-family: "Source+Sans+3" sans-serif;
+  font-family: "Source Sans 3" sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5797,7 +5797,7 @@ textarea.form-control-lg {
   z-index: var(--bs-popover-zindex);
   display: block;
   max-width: var(--bs-popover-max-width);
-  font-family: "Source+Sans+3" sans-serif;
+  font-family: "Source Sans 3" sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -11856,6 +11856,10 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+
+.navbar-brand {
+  font-family: 'Libre Baskerville', serif;
 }
 
 /*# sourceMappingURL=custom.css.map */
